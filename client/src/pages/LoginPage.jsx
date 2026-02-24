@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 import { loginUser } from '../services/api';
+import loginImage from '../assets/loginARegister.png';
 
 function ThemeToggle() {
     const { darkMode, toggleTheme } = useTheme();
@@ -194,10 +195,9 @@ export default function LoginPage() {
                 </div>
             </div>
 
-            {/* Right — Image Panel */}
             <div className="hidden lg:flex flex-1 items-center justify-center bg-[#F3F4F6] dark:bg-gray-800 overflow-hidden transition-colors duration-300">
                 <img
-                    src="http://localhost:5000/uploads/loginARegister.png"
+                    src={loginImage}
                     alt="DocuMind — AI Learning Platform"
                     className="max-w-full max-h-full object-contain p-4"
                 />
