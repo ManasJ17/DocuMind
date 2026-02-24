@@ -1,6 +1,6 @@
 # AI Learning Assistant
 
-A PDF-powered AI learning platform built with the MERN stack + Google Gemini.
+A PDF-powered AI learning platform built with the MERN stack + Grok API keys.
 
 ## Features
 
